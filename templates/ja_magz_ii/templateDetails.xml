@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="2.5" type="template" method="upgrade" client="site">
+	<name>ja_magz_ii</name>
+	<version>1.0.5</version>
+	<creationDate>Dec 15, 2017</creationDate>
+	<author>JoomlArt.com</author>
+	<authorEmail>webmaster@joomlart.com</authorEmail>
+	<authorUrl>http://www.t3-framework.org</authorUrl>
+	<copyright>Copyright (C), J.O.O.M Solutions Co., Ltd. All Rights Reserved.</copyright>
+	<license>license GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<t3>
+		<base>base-bs3</base>
+	</t3>
+	<description>
+		<![CDATA[
+		<div align="center">
+			<div class="alert alert-success" style="background-color:#DFF0D8;border-color:#D6E9C6;color: #468847;padding: 1px 0;">
+				<a href="http://www.joomlart.com/joomla/templates/ja-magz-ii">Responsive Joomla template for news & magazines sites - JA Magz II</a>
+				<h4><a href="http://www.joomlart.com/joomla/templates/ja-magz-ii" title="">Home</a> | <a href="http://joomlart.com/demo/#ja_magz_ii" title="">Demo</a> | <a href="http://www.joomlart.com/documentation/joomla-templates/ja-magz-ii" title="">Document</a> | <a href="http://pm.joomlart.com/browse/JATCMAGZII" title="">Changelog</a></h4>
+				<p>JA Magz II is the succesor of our most favorite Joomla responsive template for news and magazine sites, JA Magz. It's a clean and simple design, with highlights of typography for news and magazine readers. Magz II is responsive and displayed well on any device from mobile to PC.</p>
+        <p>JoomlArt builds JA Magz II with pure Joomla spirit, we believe with proper design and the powerful core of Joomla, we can create a beautiful yet effective responsive template for magazine and news portal. So here it is, our ultimate bet on the best Joomla template for news and magazine site.</p>
+        <p>Reading news and magazine on screen is a pain for your eyes, so we create an enhanced reading mode for your eyes' pleasure. Readers can adjust the sizes of text, and change fonts to suit their needs. Moreover, JA Magz supports multiple languages, and Right to Left languages layout. Now you can create your online magazine with native languages supported.</p>
+        <p>Aside from the Joomla custom pages, our Joomla magazine template also has 5 custom pages i.e. Blog Posts, Gallery, Contact Us, Typography, and Video. Magz II with T3 framework and Bootstrap 3 at core, sports Megamenu for desktop and off-canvas menu from mobile.</p>
+        <p>Your news & magazine templates re-imagined with JA Magz II</p>
+				<span style="color:#FF0000">Note: JA Magz II template requires T3 plugin to be installed and enabled.</span><p></p>
+				<p>Copyright 2004 - 2017 <a href='http://www.joomlart.com/' title='Visit Joomlart.com!'>JoomlArt.com</a>.</p>
+			</div>
+			<style>table.adminform{width: 100%;}</style>
+		</div>
+		]]>
+	</description>
+	<files>
+		<filename>component.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>thememagic.xml</filename>
+		<filename>templateInfo.php</filename>
+		<filename>templateHook.php</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>helper.php</filename>
+		<filename>error.php</filename>
+		<filename>offline.php</filename>
+		<folder>contenttype</folder>
+		<folder>etc</folder>
+		<folder>fonts</folder>
+		<folder>html</folder>
+		<folder>css</folder>
+		<folder>js</folder>
+		<folder>less</folder>
+		<folder>language</folder>
+		<folder>images</folder>
+		<folder>tpls</folder>
+	</files>
+	
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_ja_magz_ii.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_ja_magz_ii.sys.ini</language>
+	</languages>
+
+	<positions>
+		<position>languageswitcherload</position>
+		<position>head-search</position>
+		<position>mainnav</position>
+		<position>navhelper</position>
+		<position>breadcrumbs</position>
+		<position>off-canvas</position>
+		<position>sidebar-1</position>
+		<position>sidebar-2</position>
+		<position>mast-col</position>
+		<position>footer</position>
+		<position>home-0</position>
+		<position>home-1</position>
+		<position>home-2</position>
+		<position>home-3</position>
+		<position>home-4</position>
+		<position>home-5</position>
+		<position>position-0</position>
+		<position>position-1</position>
+		<position>position-2</position>
+		<position>position-3</position>
+		<position>position-4</position>
+		<position>position-5</position>
+		<position>position-6</position>
+		<position>position-7</position>
+		<position>position-8</position>
+		<position>position-9</position>
+		<position>position-10</position>
+		<position>position-11</position>
+		<position>position-12</position>
+		<position>position-13</position>
+		<position>position-14</position>
+		<position>position-15</position>
+		<position>footer-0</position>
+		<position>footer-1</position>
+		<position>footer-2</position>
+		<position>footer-3</position>
+		<position>footer-4</position>
+		<position>footer-5</position>
+		<position>footer-6</position>
+		<position>footer-7</position>
+		<position>footer-8</position>
+		<position>footer-9</position>
+		<position>footer-10</position>
+		<position>debug</position>
+		<position>article-bottom</position>
+		<position>article-sidebar</position>
+		<position>banner-top</position>
+		<position>head-social</position>
+		<position>leading-sidebar</position>
+		<position>section</position>
+	</positions>
+
+	<config>
+		<fields name="params" addfieldpath="/plugins/system/t3/includes/depend">
+
+			<fieldset name="general_params">
+        <field
+                name="show_typo_tools"
+                type="radio"
+                default="1"
+                global="1"
+                class="btn-group"
+                label="TPL_MAGZ_II_SHOW_TYPO_TOOLS_LABEL"
+                description="TPL_MAGZ_II_SHOW_TYPO_TOOLS_LABEL">
+            <option value="1">JSHOW</option>
+            <option value="0">JHIDE</option>
+        </field>
+        <field
+                name="show_sharing_tools"
+                type="radio"
+                default="1"
+                global="1"
+                class="btn-group"
+                label="TPL_MAGZ_II_SHOW_SHARING_TOOLS_LABEL"
+                description="TPL_MAGZ_II_SHOW_SHARING_TOOLS_LABEL">
+            <option value="1">JSHOW</option>
+            <option value="0">JHIDE</option>
+        </field>
+    </fieldset>
+			
+		</fields>
+	</config>
+
+	<updateservers>
+		<server type="extension">http://update.joomlart.com/service/tracking/j31/ja_magz_ii.xml</server>
+	</updateservers>
+
+</extension>

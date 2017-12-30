@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="params">
+		<fieldset name="t3_extrafields_params" label="JA Extra Fields" description="Custom Fields for category">
+      <field name="classes" type="list"
+             description="Category Color"
+             label="Category Color"
+             default="" >
+        <option value="">Default Color</option>
+        <option value="cat-red">Red Color</option>
+        <option value="cat-green">Green Color</option>
+        <option value="cat-pink">Pink Color</option>
+        <option value="cat-blue">Blue Color</option>
+        <option value="cat-purple">Purple Color</option>
+        <option value="cat-orange">Orange Color</option>
+      </field>
+    </fieldset>
+  </fields>
+</form>

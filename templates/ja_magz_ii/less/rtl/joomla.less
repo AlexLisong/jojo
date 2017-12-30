@@ -1,0 +1,129 @@
+/**
+ * $JA#COPYRIGHT$
+ */
+
+// ---------------------------------------------------------
+// SMART SEARCH
+// ---------------------------------------------------------
+
+.off-canvas body > .autocompleter-choices {
+  width: 0px;
+  left: auto;
+}
+
+
+// ---------------------------------------------------------
+// ARTICLE DETAIL
+// ---------------------------------------------------------
+.article-navigation .pagenav > li {
+  &.next {
+    .navigation-detail {
+      transform: translateX(-250%);
+      -webkit-transform: translateX(-250%);
+      -moz-transform: translateX(-250%);
+    }
+  }
+
+  &.previous {
+    .navigation-detail {
+      transform: translateX(250%);
+      -webkit-transform: translateX(250%);
+      -moz-transform: translateX(250%);
+    }
+
+    .fa-angle-left:before {
+      content:"\f105"
+    }
+
+    .fa-angle-right:before {
+      content:"\f104"
+    }
+  }
+}
+
+html[dir="rtl"] {
+  .fa-angle-left:before {
+    content:"\f105"
+  }
+
+  .fa-angle-right:before {
+    content:"\f104"
+  }
+}
+
+.carousel-thumbnail {
+  .carousel-control.left {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+    right: 0;
+    left: auto;
+  }
+
+  .carousel-control.right {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+    right: auto;
+    left: 0;
+  }
+}
+
+
+.video-list .btn-more {
+  &:after {
+    display: none;
+  }
+
+  &:before {
+    content: "\f177";
+    font-family: FontAwesome;
+    margin-right: 5px;
+  }
+}
+
+.category-module.article-list .btn-more {
+  &:after {
+    display: none;
+  }
+
+  &:before {
+    content: "\f177";
+    font-family: FontAwesome;
+    margin-right: 5px;
+  }
+}
+
+.slides {
+  .btn.next,
+  .btn.prev {
+    direction: rtl;
+  }
+
+  .glyphicon-chevron-right::before {
+    content: "\f053";
+    font-family: FontAwesome;
+  }
+
+  .glyphicon-chevron-left::before {
+    content: "\f054";
+    font-family: FontAwesome;
+  }
+}
+
+
+// ITEM PAGE
+// ---------------------------------------------------------
+.item-page .tags {
+  direction: ltr;
+
+  .label {
+
+    &:before {
+      content: "";
+      margin-right: 0;
+    }
+
+    &:after {
+      content: "\f02b";
+      font-family: FontAwesome;
+      margin-left: 5px;
+    }
+  }
+}

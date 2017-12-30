@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="params">
+		<fieldset name="t3_extrafields_params" label="JA Extrafields" description="JA Extrafields">
+		  <field name="link" type="text" default="" label="TPL_MORE_URL_LABEL" description="TPL_MORE_URL_DESC" />
+      <field name="columns" type="text" default="3" label="TPL_NUMBER_COLUMN_LABEL" description="TPL_NUMBER_COLUMN_DESC" />
+      <field name="module-position" type="moduleposition"   
+        description="TPL_POSITION_NAME_DESC"
+        label="TPL_POSITION_NAME_LABEL"
+        default="" />
+      <field name="display-order" type="text" default="" label="TPL_POSITION_ORDER_LABEL" description="TPL_POSITION_ORDER_DESC" />
+    </fieldset>
+  </fields>
+</form>

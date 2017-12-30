@@ -1,0 +1,210 @@
+/*
+ * ------------------------------------------------------------------------
+ * JA Magz II Template
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+*/
+
+
+
+ /* MAIN OFFLINE STYLE
+ ------------------------*/
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #fff;
+	color: #333;
+	font-family: "Roboto",sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.6;
+	margin: 0;
+	padding: 0;
+}
+
+#frame {
+	left: 50%;
+	padding: 50px 30px 30px;
+	position: absolute;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	top: 15%;
+	width: 360px;
+	border: 2px solid #00bfe6;
+
+}
+
+#frame #offline-img {
+	margin: 0;
+  text-align: center;
+}
+
+#frame #offline-img img {
+	max-width: 100%;
+}
+
+.offline-des {
+	margin: 20px 0 30px 0;
+	text-align: center;
+	color: #999;
+	font-size: 13px;
+}
+
+/* Title Offline
+----------------------------- */
+#offline-title {
+	color: #000;
+	text-align: center;
+}
+
+#offline-title h1 {
+	color: #000;
+	display: inline-block;
+	font-size: 45px;
+	font-weight: bold;
+	margin: 0;
+	font-family: "PT Serif";
+}
+
+/* Form Offline
+----------------------------- */
+.form-offline {
+	margin: 0 -10px;
+}
+
+.form-group {
+	margin-bottom: 20px;
+	padding: 0 10px;
+}
+
+.control-label {
+	font-size: 13px;
+	margin-bottom: 5px;
+	display: block;
+}
+
+.control-input {
+	background: #f7f7f7;
+	border: 1px solid #ddd;
+	border-radius: 0;
+	box-shadow: none;
+	color: #999;
+	display: block;
+	font-size: 13px;
+	font-weight: 500;
+	height: 36px;
+	line-height: 36px;
+	padding: 10px 14px;
+	width: 100%;
+	position: relative;
+}
+
+.control-input:focus {
+	border-color: #00bfe6;
+	box-shadow: none;
+	color: #333;
+}
+
+/* Remember Login
+------------------------- */
+#form-login-remember {
+	color: #555;
+	font-size: 12px;
+}
+
+#remember {
+	position: relative;
+	top: 0;
+	margin: 0 5px 0 0;
+}
+
+/* Button
+------------------------- */
+#submit-buton {
+	margin: 30px 0 0;
+}
+
+#submit-buton .button {
+	background: #00bfe6;
+	color: #fff;
+	font-size: 14px;
+  	padding: 15px 25px;
+	text-transform: uppercase;
+	transition: 0.15s;
+	width: 100%;
+	border: none;
+}
+
+#submit-buton .button:hover {
+	background: #0095b3;
+	cursor: pointer;
+}
+
+/* Message system
+----------------------------- */
+#system-message-container {
+	text-align: center;
+	margin-top: -20px;
+}
+
+#system-message {
+	border: 1px solid #ebccd1;
+	background: #f2dede;
+	margin-bottom: 30px;
+	padding: 10px;
+	max-width: 100%;
+	color: #b94a48;
+}
+
+#system-message p {
+	margin: 0;
+}
+
+#system-message .close {
+	display: none;
+}
+
+#system-message dt,
+#system-message .alert-heading {
+	color: #b94a48;
+	display: inline-block;
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+
+.message {
+	margin-left: 0;
+}
+
+.message ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+/* Responsive
+------------------------------*/
+/* Control screen width 640px */
+@media screen and (max-width: 640px ) {
+	#frame {
+		width: auto;
+		position: static;
+		transform: translateX(0);
+		margin: 40px 20px;
+	}
+}
+
+/*Control screen mobile */
+@media screen and (max-width: 480px ) {
+	.form-group {
+		width: 100%;
+	}
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<form>
+    <fields name="params">
+        <fieldset name="advanced">
+            <field name="pagination_type" type="list"
+                description="TPL_INFINITIVE_PAGINATION_DESC"
+                label="TPL_INFINITIVE_PAGINATION_LABEL"
+                default="1" >
+                    
+                <option value="0">TPL_DISABLED</option>
+                <option value="1">TPL_MANUAL</option>
+                <option value="2">TPL_AUTO</option>
+            </field> 
+        </fieldset>
+    </fields>
+</form>
