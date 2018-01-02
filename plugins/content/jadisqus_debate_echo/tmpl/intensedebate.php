@@ -9,7 +9,7 @@
  * Websites: http://www.joomlart.com - http://www.joomlancers.com
  * ------------------------------------------------------------------------
  */
-
+/*
 // no direct access
 defined('_JEXEC') or die('Restricted access');
 
@@ -43,3 +43,4 @@ $url = str_replace('&amp;', '&', $this->_url );
 	<input type="hidden" id="debate-comment"/>
 	<script type="text/javascript" src="http://www.intensedebate.com/js/genericCommentWrapperV2.js"></script>
 <?php endif; ?>
+*/
