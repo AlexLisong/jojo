@@ -19,3 +19,17 @@ $account        = $this->plgParams->get('provider-intensdebate-account');
 $url = str_replace('&amp;', '&', $this->_url );
 ?>
 
+<?php //if ($this->commentContext == 'count'): ?>
+<!--    <span class="containerCountComment" onclick="window.location.href='--><?php //echo $this->_url;?>//#idc-container'; return false;">
+//
+//	</script>
+//        <input type="hidden" id="debate-counter"/>
+//            <script type="text/javascript" src="http://www.intensedebate.com/js/genericLinkWrapperV2.js"></script>
+//    </span>
+<?php //else: ?>
+//
+//    </script>
+//    <span id="IDCommentsPostTitle" style="display:none"></span>
+//        <input type="hidden" id="debate-comment"/>
+//        <script type="text/javascript" src="http://www.intensedebate.com/js/genericCommentWrapperV2.js"></script>
+<?php //endif; ?>
