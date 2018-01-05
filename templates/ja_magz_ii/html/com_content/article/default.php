@@ -254,7 +254,7 @@ $doc->addCustomTag($fblog);
 		</div></div>
 
 		<?php if ($sidebar) : ?>
-			<div class="col col-md-4 item-sidebar hidden-sm hidden-xs"><div class="affix-wrap">
+			<div class="col col-md-4 item-sidebar"><div class="affix-wrap">
 				<?php echo $sidebar; ?>
 			</div></div>
 		<?php endif; ?>
